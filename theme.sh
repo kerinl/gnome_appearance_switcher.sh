@@ -55,7 +55,7 @@ then
   gsettings set org.gnome.desktop.interface gtk-theme "$theme1"
   gsettings set org.gnome.desktop.interface icon-theme "$icons1"
   gsettings set org.gnome.shell.extensions.user-theme name "$shell1"
-  gsettings set org.gnome.desktop.background picture-uri file:///home/username/Pictures/Backgrounds/bike.jpeg
+  gsettings set org.gnome.desktop.background picture-uri "$background1"
   echo "############################"
   echo -e "\e[1mOld theme:\e[0m \e[9m$theme2\e[0m"
   echo -e "\e[1mNew theme:\e[0m \e[3m$theme1\e[0m"
@@ -66,7 +66,7 @@ else
   gsettings set org.gnome.desktop.interface gtk-theme "$theme2"
   gsettings set org.gnome.desktop.interface icon-theme "$icons2"
   gsettings set org.gnome.shell.extensions.user-theme name "$shell2"
-  gsettings set org.gnome.desktop.background picture-uri file:///home/username/Pictures/Backgrounds/noplacelikehome.png
+  gsettings set org.gnome.desktop.background picture-uri "$background2"
   echo "############################"
   echo -e "\e[1mOld theme:\e[0m \e[9m$theme1\e[0m"
   echo -e "\e[1mNew theme:\e[0m \e[3m$theme2\e[0m"
